@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>mod_slideshow_element</name>
+    <author>slash006</author>
+    <creationDate>March 2018</creationDate>
+    <copyright>Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>ssslashhh@gmail.com</authorEmail>
+    <authorUrl>www.sniplog.it</authorUrl>
+    <version>1.0</version>
+    <description>Slideshow element for simple slideshow module</description>
+    <files>
+        <filename module="mod_slideshow_element">mod_slideshow_element.php</filename>
+        <folder>tmpl</folder>
+    </files>
+
+
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field
+                        name="background-url"
+                        type="text"
+                        label="Background: "
+                        required="true"
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
