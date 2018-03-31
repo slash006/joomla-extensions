@@ -5,7 +5,8 @@
         position: relative;
         overflow: hidden;
         width:100%;
-        height: 320px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
 
@@ -15,6 +16,13 @@
         overflow: hidden;
         width: 100%;
 
+    }
+    
+    .moduletable > div {
+        
+        height: 420px;
+        background-size: cover;
+        background-position: center;
     }
 
 

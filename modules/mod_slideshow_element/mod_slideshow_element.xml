@@ -22,11 +22,24 @@
 
                 <field
                         name="background-url"
-                        type="text"
+                        type="media"
+                        directory="images/"
                         label="Background: "
                         required="true"
+                        hide_none="true"
+                        hide_default="true"
                 />
 
+                <field 
+                    name="header"
+                    type="text"
+                />
+                
+                <field
+                    name="description"
+                    type="text"
+                />
+                
             </fieldset>
         </fields>
     </config>
